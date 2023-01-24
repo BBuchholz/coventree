@@ -2,6 +2,7 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+
 </script>
 
 <svelte:head>
@@ -18,11 +19,15 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		to<br />COVENTREE<br />Grove
 	</h1>
 
 	<h2>
-		THIS IS HOW IT LOOKS AFTER editing <strong>src/routes/+page.svelte</strong>
+		PLANNING: needs an input box with a hint that reads "lost your key? ask a member for a copy..."
+	</h2>
+
+	<h2>
+		PLANNING: COVENTREE, COVEN3, C0V3NTR33, each should unlock a different experience, passed through markdown, stored in browser on request, cleared from browser on request, in this way the site can be configured differently by different users and shared with their associates and their affiliates without necessarily pushing the changes to whomever is hosting the grove (though if a particular configuration genrates enough traffic, its uuid will be on record and the grove hosts could offer to purchase or license the particular configuration)
 	</h2>
 
 	<Counter />
