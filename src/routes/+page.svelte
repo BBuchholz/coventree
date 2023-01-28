@@ -22,6 +22,10 @@
 		to<br />COVENTREE<br />Grove
 	</h1>
 
+	<p>
+		PLANNING: Create Word Art To Replace The Default WELCOME Image (should read COVENTREE [line break] Grove)
+	</p>
+
 	<p>PLANNING: this is the default layout and template of the skeleton starter app, add Bootstrap and pick a theme that feels appropriate, projeckt planning uuid (9da4313f-a9cd-498a-9972-5d4a61418060)</p>
 
 
