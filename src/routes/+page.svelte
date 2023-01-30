@@ -2,7 +2,7 @@
 	import Counter from './Counter.svelte';
 	// import welcome from '$lib/images/svelte-welcome.webp';
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import cg_logo from '$lib/images/Coventree_Grove-logos_black.png';
+	import cg_logo from '$lib/images/CoventreeGrove-logos_black_CROPPED.png';
 
 
 </script>
@@ -13,7 +13,6 @@
 </svelte:head>
 
 <section>
-
 
 	<span class="welcome">
 		<picture>
