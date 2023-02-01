@@ -63,7 +63,10 @@
 		const guess = data.guesses[i];
 		const key = /** @type {HTMLButtonElement} */ (event.target).getAttribute('data-key');
 
-		if (key === 'backspace') {
+		if(guess === 'coven'){
+			alert('this is where we would change the SVERDLE element in the Header to COVEN and then clicking it would take you elsewhere, we will do this with a store value that is accessed in Header and will conditionally display the different items');
+			if (form?.badGuess) form.badGuess = false;
+		} else if (key === 'backspace') {
 			data.guesses[i] = guess.slice(0, -1);
 			if (form?.badGuess) form.badGuess = false;
 		} else if (guess.length < 5) {
